@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="{{ asset('assets/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/bootstrap.min.css') }}">
 </head>
 <style>
     body {
-        background: url("{{ asset('pemandangan.jpg') }}") no-repeat center center fixed;
+        background: url("{{ secure_asset('pemandangan.jpg') }}") no-repeat center center fixed;
         background-size: cover;
     }
 
